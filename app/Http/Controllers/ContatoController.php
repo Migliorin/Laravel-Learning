@@ -10,6 +10,7 @@ class ContatoController extends Controller
     {   
 
         var_dump($_POST);
+        var_dump('meu controler');
         return view('site.contato',['titulo' => 'Contato (teste)']);
     }
 }
